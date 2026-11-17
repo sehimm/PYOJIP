@@ -1,0 +1,450 @@
+[
+ {
+  "id": "in-the-park",
+  "no": "BCS-002",
+  "name": "In The Park",
+  "agency": "BonTemps©",
+  "agencyNote": "멕시코시티",
+  "year": "2025",
+  "yearNote": "",
+  "country": "멕시코",
+  "field": "패션·엔터테인먼트",
+  "disciplines": "Brand Identity, Web, Motion",
+  "analyzed": "2026-11-17",
+  "url": "https://www.bontemps.agency/work/in-the-park/",
+  "scope": "브랜드 아이덴티티, 웹, 모션, 카피라이팅",
+  "ideaEn": "A gathering of trees.",
+  "ideaKo": "공원은 안식처이자 만남의 장소. 에이전시를 보호하는 공간이자 무대가 되는 플랫폼으로 보고, 로고타입을 함께 선 나무들의 무리로 그렸다.",
+  "tags": [
+   "커스텀 세리프",
+   "손글씨",
+   "모션",
+   "웹",
+   "미니멀",
+   "타이포 중심",
+   "모노크롬"
+  ],
+  "media": [
+   {
+    "type": "image",
+    "src": "media/in-the-park/01.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/in-the-park/02.mp4",
+    "poster": "media/in-the-park/02-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/03.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/04.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/05.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/06.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/07.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/08.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/09.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/10.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/11.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/12.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/13.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/in-the-park/14.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/in-the-park/15.mp4",
+    "poster": "media/in-the-park/15-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/in-the-park/16.mp4",
+    "poster": "media/in-the-park/16-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/in-the-park/17.mp4",
+    "poster": "media/in-the-park/17-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/in-the-park/18.mp4",
+    "poster": "media/in-the-park/18-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/in-the-park/19.mp4",
+    "poster": "media/in-the-park/19-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/in-the-park/20.mp4",
+    "poster": "media/in-the-park/20-poster.jpg"
+   }
+  ],
+  "sections": [
+   {
+    "t": "배경과 과제",
+    "p": [
+     "멕시코시티의 모델·탤런트 매니지먼트(창업자 Carlos Castellanos). 외모와 정체성, 젠더 표현에서 업계의 기준을 넘어서는 사람들을 대변한다. 계약과 부킹을 넘어 옹호와 보호, 한 사람으로서의 존중을 핵심으로 삼기에, 진지한 탤런트를 대변할 권위와 각자가 알려진다고 느낄 따뜻함을 함께 가진 시스템이 필요했다."
+    ]
+   },
+   {
+    "t": "로고·심볼",
+    "ul": [
+     "커스텀 세리프 워드마크. 'THE'를 작게 IN과 PARK 사이 위쪽에 끼워 넣은 구조",
+     "대문자의 수직 스템이 나무 기둥처럼 서고, 글자끼리 닿고 겹치는 디테일로 함께 선 나무들을 표현",
+     "보조 아이콘: 'T'를 맞물린 두 원으로 변형. 연결과 상호 지지"
+    ]
+   },
+   {
+    "t": "타이포그래피",
+    "ul": [
+     "워드마크 커스텀 세리프: 권위와 유산",
+     "Waldenburg (Kimera Corp): 헤드라인·본문",
+     "LL Bradford Mono (Lineto): 이름 캡션과 프로필 정보",
+     "탤런트 본인의 손글씨 메모·서명, 파란 펜 교정 표시"
+    ]
+   },
+   {
+    "t": "컬러",
+    "ul": [
+     "흰 배경, 검정 타입, 회색조의 무채색 시스템",
+     "색은 탤런트 사진이 맡고, 파란 펜 손글씨가 거의 유일한 포인트"
+    ]
+   },
+   {
+    "t": "그래픽 시스템",
+    "ul": [
+     "균일한 정면 인물 그리드와 모노 이름 캡션으로 모든 탤런트를 같은 무게로",
+     "손글씨 메모·서명·교정 표시를 겹쳐 개인성을 더함",
+     "모션: 워드마크 글자 사이가 벌어지며 그 틈으로 탤런트 사진이 나타남, 3D 이미지 갤러리"
+    ]
+   },
+   {
+    "t": "적용 사례",
+    "ul": [
+     "웹사이트: 탤런트별 맞춤 프로필(컴카드, 인스타그램, 디지털 + 본인 손글씨 한 줄 + 바이오)",
+     "경력 리스트를 사진 위에 오버레이하는 에디토리얼 레이아웃",
+     "모션 아이덴티티, 카피라이팅"
+    ]
+   },
+   {
+    "t": "톤 앤 보이스",
+    "p": [
+     "친밀하면서도 단호함. 격조 있고 따뜻하며 개인적. 인터페이스는 절제되고 촉각적."
+    ]
+   },
+   {
+    "t": "평가",
+    "groups": [
+     {
+      "h": "잘된 점",
+      "ul": [
+       "이름에서 콘셉트를 끌어낸 정공법. 공원, 나무, 수직 스템으로 이어지는 은유가 워드마크에 정확히 번역됨",
+       "권위와 따뜻함을 서체 역할 분담(세리프·그로테스크·모노·손글씨)으로 해결",
+       "손글씨를 탤런트 본인의 목소리로 써서 미션을 형식으로 증명",
+       "균일한 인물 그리드가 다양성을 위계 없이 보여줌"
+      ]
+     },
+     {
+      "h": "아쉬운 점",
+      "ul": [
+       "고대비 세리프, 흑백 사진, 모노 캡션은 패션 에이전시의 흔한 문법",
+       "맞물린 두 원 아이콘이 'T'로 잘 읽히지 않고 흔한 모티프",
+       "컬러가 비어 있어 '공원'의 생기가 색에서 느껴지지 않음",
+       "미션의 날카로움과 멕시코라는 지역성이 비주얼에서는 순화됨"
+      ]
+     }
+    ]
+   }
+  ],
+  "agencyUrl": "https://www.bontemps.agency/",
+  "categories": [
+   "Brand Identity",
+   "Web",
+   "Motion",
+   "Fashion"
+  ],
+  "mediaCredit": "Motion: John Vallance, José Cohen, Diego Herrera"
+ },
+ {
+  "id": "tula-louise",
+  "no": "BCS-001",
+  "name": "Tula Louise",
+  "agency": "Twice Shy",
+  "agencyNote": "런던·로테르담",
+  "year": "2025–26",
+  "yearNote": "추정",
+  "country": "영국 / 네덜란드",
+  "field": "뷰티·생활용품",
+  "disciplines": "Strategy, Visual Identity, Packaging",
+  "analyzed": "2026-11-17",
+  "url": "https://twiceshy.studio/archive/tula-louise",
+  "scope": "전략·포지셔닝, 로고, 아트디렉션, 패키지",
+  "ideaEn": "A soap atelier.",
+  "ideaKo": "비누 브랜드가 아니라, 비누를 재료로 다루는 작은 스튜디오. 카테고리를 '비누 브랜드'에서 '공방'으로 옮겨 제품을 작업물로 보이게 한다.",
+  "tags": [
+   "패키지",
+   "미니멀",
+   "타이포 중심",
+   "라벨 시스템",
+   "빈티지",
+   "크래프트",
+   "모노크롬"
+  ],
+  "media": [
+   {
+    "type": "image",
+    "src": "media/tula-louise/01.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/02.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/tula-louise/03.mp4",
+    "poster": "media/tula-louise/03-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/04.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/tula-louise/05.mp4",
+    "poster": "media/tula-louise/05-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/06.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/07.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/08.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/09.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/10.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/11.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/12.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/13.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/14.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/15.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/16.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/17.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/18.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/19.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/20.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/21.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/22.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/tula-louise/23.mp4",
+    "poster": "media/tula-louise/23-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/24.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/25.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/tula-louise/26.mp4",
+    "poster": "media/tula-louise/26-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/27.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/28.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/29.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/30.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/31.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/32.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/tula-louise/33.jpg"
+   }
+  ],
+  "sections": [
+   {
+    "t": "배경과 과제",
+    "p": [
+     "창업자 Jowanda가 코로나 시기 천연 안료 실험으로 시작한 비누 브랜드. 제품은 눈에 띄는데 브랜드가 무엇이 다른지 말해주지 못해서, 리테일러 눈에는 또 하나의 비누 브랜드로 보일 위험이 있었다."
+    ]
+   },
+   {
+    "t": "로고·심볼",
+    "ul": [
+     "옛 공방·부티크의 라벨 프레임을 이중선 아웃라인으로 다시 그림",
+     "다이아몬드, 원, 팔각형, 육각형, 라운드 사각형 등 12개 정도의 라벨 형태 어휘",
+     "라벨 두 개가 체인처럼 맞물리는 구조. 메인 심볼은 팔각형과 원의 결합",
+     "규칙: 둥근 형태는 항상 각진 형태와 짝을 이룬다"
+    ]
+   },
+   {
+    "t": "타이포그래피",
+    "ul": [
+     "워드마크 Memoir (Daniel Gremme), 대문자. 곡선 노치와 안쪽으로 파인 디테일이 비누의 촉감을 떠올리게 함",
+     "본문 Hanken Grotesk",
+     "세로로 세운 워드마크를 크라프트 봉투의 봉함 띠로 사용"
+    ]
+   },
+   {
+    "t": "컬러",
+    "ul": [
+     "브랜드 컬러는 검정, 흰색, 돌·종이 톤으로 최소화",
+     "색은 제품이 맡는다. 천연 안료 비누 자체가 팔레트"
+    ]
+   },
+   {
+    "t": "그래픽 시스템",
+    "ul": [
+     "라벨 형태와 워드마크를 함께 또는 따로 사용, 작은 라벨에서 큰 박스까지 확장",
+     "컬렉션 박스에는 라벨 3~4개가 이어진 긴 체인",
+     "흑백 공정 사진(틀에 붓기, 숙성 선반)과 재료 스틸라이프(측백, 숯, 라벤더)로 아틀리에 서사를 증명"
+    ]
+   },
+   {
+    "t": "적용 사례",
+    "ul": [
+     "단품: 반투명 종이 포장 + 금속 클로저로 비누가 비쳐 보임. 뒷면 라벨에 제품명·배치 번호·설명",
+     "컬렉션 박스: 무염색 천연 판지",
+     "비누 표면 디보싱과 전용 도장 툴",
+     "벨럼 봉투, 레터헤드, 크라프트 쇼핑백, 명함"
+    ]
+   },
+   {
+    "t": "톤 앤 보이스",
+    "p": [
+     "페이지에 명시 없음. 라벨 카피는 짧은 대문자 서술형."
+    ]
+   },
+   {
+    "t": "평가",
+    "groups": [
+     {
+      "h": "잘된 점",
+      "ul": [
+       "전략 한 문장이 형태, 재료, 사진까지 일관되게 내려감",
+       "브랜드 컬러를 비우고 제품에 색을 맡김. 단색 인쇄로 비용 효율적이고 제품이 주인공이 됨",
+       "형태 어휘 + 결합 규칙 하나로 확장 가능하고 운영이 쉬운 시스템",
+       "반투명 포장으로 핸드메이드의 결을 보여줌"
+      ]
+     },
+     {
+      "h": "아쉬운 점",
+      "ul": [
+       "빈티지 라벨·크라프트지·반투명 포장은 수공예 카테고리의 익숙한 문법이라 비주얼 차별화는 전략만큼 강하지 않음",
+       "창업자 이야기가 비주얼에 거의 드러나지 않음",
+       "작은 비누 위 디보싱 워드마크는 자간이 붙어 가독성이 떨어짐"
+      ]
+     }
+    ]
+   }
+  ],
+  "agencyUrl": "https://twiceshy.studio/",
+  "categories": [
+   "Brand Identity",
+   "Packaging",
+   "Beauty & Wellness"
+  ],
+  "mediaCredit": ""
+ }
+]
