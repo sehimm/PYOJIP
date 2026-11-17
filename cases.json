@@ -1,5 +1,222 @@
 [
  {
+  "id": "poetry-foundation",
+  "no": "BCS-003",
+  "name": "Poetry Foundation",
+  "agency": "Pentagram",
+  "agencyNote": "뉴욕 · Andrea Trabucco-Campos",
+  "agencyUrl": "https://www.pentagram.com/",
+  "year": "2026",
+  "yearNote": "",
+  "country": "미국",
+  "field": "출판·문화예술",
+  "disciplines": "Brand Identity, Typefaces, Editorial",
+  "categories": [
+   "Brand Identity",
+   "Typefaces",
+   "Publishing",
+   "Arts & Culture"
+  ],
+  "mediaCredit": "Motion: Mallandrich · Award: Piotr Woronkowicz",
+  "analyzed": "2026-11-17",
+  "url": "https://www.pentagram.com/work/poetry-identity",
+  "scope": "브랜드 아이덴티티, 전용 서체, 매거진, 어워드, 사인",
+  "ideaEn": "Poems become the artwork.",
+  "ideaKo": "시인의 말이 재단이 만드는 모든 것의 재료가 된다. 사진 대신 시인의 문장 자체가 아트워크가 된다.",
+  "tags": [
+   "매거진",
+   "커스텀 서체",
+   "타이포 중심",
+   "일러스트",
+   "컬러풀",
+   "헤리티지 심볼"
+  ],
+  "media": [
+   {
+    "type": "image",
+    "src": "media/poetry-foundation/01.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/02.mp4",
+    "poster": "media/poetry-foundation/02-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/poetry-foundation/03.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/04.mp4",
+    "poster": "media/poetry-foundation/04-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/05.mp4",
+    "poster": "media/poetry-foundation/05-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/06.mp4",
+    "poster": "media/poetry-foundation/06-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/poetry-foundation/07.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/08.mp4",
+    "poster": "media/poetry-foundation/08-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/09.mp4",
+    "poster": "media/poetry-foundation/09-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/10.mp4",
+    "poster": "media/poetry-foundation/10-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/11.mp4",
+    "poster": "media/poetry-foundation/11-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/12.mp4",
+    "poster": "media/poetry-foundation/12-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/13.mp4",
+    "poster": "media/poetry-foundation/13-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/14.mp4",
+    "poster": "media/poetry-foundation/14-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/15.mp4",
+    "poster": "media/poetry-foundation/15-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/16.mp4",
+    "poster": "media/poetry-foundation/16-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/poetry-foundation/17.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/18.mp4",
+    "poster": "media/poetry-foundation/18-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/poetry-foundation/19.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/20.mp4",
+    "poster": "media/poetry-foundation/20-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/21.mp4",
+    "poster": "media/poetry-foundation/21-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/poetry-foundation/22.mp4",
+    "poster": "media/poetry-foundation/22-poster.jpg"
+   }
+  ],
+  "sections": [
+   {
+    "t": "배경과 과제",
+    "p": [
+     "1912년 창간된 『Poetry』 매거진을 발행하고 전시·행사·도서관·디지털 아카이브·지원금 프로그램을 운영하는 시카고의 재단. 매거진, 프로그램, 지원금, 행사를 처음으로 하나의 시스템 아래 묶고, 더 대담하고 에너지 있는 목소리로 '시는 엘리트적이고 낡았다'는 인식을 깨는 것이 과제였다. 2026년 9월 발표, 『Poetry』 2026년 10월호부터 적용. 2027년 재단 25주년을 앞둔 개편.",
+     "이전 아이덴티티(2016–17, Michael Bierut)는 'POETRY' 여섯 글자를 두 글자씩 세 줄로 쌓고 매 호 서체를 바꾸는 방식이었다. 이번 개편은 '시라는 단어'에서 '시 작품 그 자체'로 무게를 옮겼다."
+    ]
+   },
+   {
+    "t": "로고·심볼",
+    "ul": [
+     "『Poetry』 매거진과 오래 함께한 페가수스를 다시 그려 재단 전체의 단독 로고로 승격",
+     "서 있는, 앞발을 든, 달리는, 나는 네 가지 포즈",
+     "종이를 오려낸 듯한 실루엣. 책등 크기부터 대형 설치물까지 대응",
+     "락업: POETRY + 페가수스 + FOUNDATION, 페가수스 + Poetry, Poem of the Day, Awards, 주소 숫자 '61' 등 프로그램별 변형"
+    ]
+   },
+   {
+    "t": "타이포그래피",
+    "ul": [
+     "Times Gothic: 1906년 American Type Founders 견본집 스캔을 바탕으로 Pentagram이 그린 전용 산세리프. 넓은 비례, 큰 x-height, fi·ff·ffi 합자",
+     "Times Modern 확장: 파운드리 November에 의뢰해 더 일상적이고 따뜻하고 굵은 목소리로 확장. 표지·큰 제목용 굵고 좁은 모던 세리프",
+     "두 서체 모두 시카고의 역사적인 거리 글자(버내큘러)에서 영감",
+     "용도별: 인쇄물 Times Modern·Times Gothic·Delusse / 기관 Times Modern·Times Gothic·Pegasus / 웹 Times Modern·Times New Roman·Noto Sans·Noto Serif"
+    ]
+   },
+   {
+    "t": "컬러",
+    "ul": [
+     "넓어진 팔레트. 매거진 표지는 두 가지 색의 강한 대비",
+     "크림색 종이 바탕에 검정, 코발트 블루, 마젠타, 오커, 오렌지, 라임 등 채도 높은 단색면"
+    ]
+   },
+   {
+    "t": "그래픽 시스템",
+    "ul": [
+     "시인의 문장을 사진 대신 메인 비주얼로 사용",
+     "모든 요소를 가운데 축에 맞춰 쌓는 '스태킹' 모티프",
+     "표지마다 수록 시의 한 줄 + 오려낸 듯한 평면 형태의 오리지널 일러스트",
+     "갤러리 벽부터 작은 오브제까지 같은 시스템으로 확장"
+    ]
+   },
+   {
+    "t": "적용 사례",
+    "ul": [
+     "『Poetry』 매거진: 표지에 수록 시의 구절, 동시대 시 형식에 맞춘 내지 개편, 판형·매엽 오프셋 유지하며 가독성 향상과 종이 낭비 감소",
+     "페가수스 어워드 트로피: 『Poetry』의 정확한 판형 크기, 시카고 건축을 참조한 금속 받침",
+     "본부 건물 파사드, 갤러리 벽, 책등, 스크린·웹, 프로그램 포스터, 모션"
+    ]
+   },
+   {
+    "t": "톤 앤 보이스",
+    "p": [
+     "대담하고 에너지 있고 동시대적. 포용적이고 자신감 있으며 따뜻한 버내큘러의 결."
+    ]
+   },
+   {
+    "t": "평가",
+    "groups": [
+     {
+      "h": "잘된 점",
+      "ul": [
+       "'시 자체가 아트워크'라는 결정이 미션을 그대로 형식으로 옮김. 콘텐츠가 곧 아이덴티티라 매 호, 매 행사마다 자연스럽게 새로워짐",
+       "오래된 자산인 페가수스를 마스터 마크로 올려 흩어진 프로그램을 하나의 브랜드 구조로 정리. 락업 체계가 명확함",
+       "1906년 견본집과 시카고 거리 글자에서 출발한 서체가 역사성과 지역성을 확보하면서도 굵고 따뜻해 '엘리트적' 인상을 덜어냄",
+       "채도 높은 색과 일러스트가 놀이와 개방성을 더함"
+      ]
+     },
+     {
+      "h": "아쉬운 점",
+      "ul": [
+       "매 호 객원 디자이너가 'POETRY'를 새로 해석하던 이전 아이덴티티의 타이포그래피 실험성이 줄어듦. 타이포 실험으로 유명했던 매거진이 더 정돈된 에디토리얼 표지로 이동"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "in-the-park",
   "no": "BCS-002",
   "name": "In The Park",
