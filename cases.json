@@ -136,6 +136,22 @@
     "type": "video",
     "src": "media/poetry-foundation/22.mp4",
     "poster": "media/poetry-foundation/22-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/poetry-foundation/23.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/poetry-foundation/24.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/poetry-foundation/25.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/poetry-foundation/26.jpg"
    }
   ],
   "sections": [
