@@ -1,5 +1,226 @@
 [
  {
+  "id": "cooking-notes-vol-ii",
+  "no": "BCS-004",
+  "name": "Cooking Notes Vol. II",
+  "agency": "BonTemps©",
+  "agencyNote": "멕시코시티",
+  "agencyUrl": "https://www.bontemps.agency/",
+  "year": "—",
+  "yearNote": "명시 없음",
+  "country": "미국 (저자 LA 기반)",
+  "field": "출판·요리책",
+  "disciplines": "Book Design, Creative Direction, Photography",
+  "categories": [
+   "Book Design",
+   "Publishing",
+   "Photography",
+   "Food"
+  ],
+  "mediaCredit": "Photography: Drew Escriva · Design: Albert Mestres",
+  "analyzed": "2026-11-17",
+  "url": "https://www.bontemps.agency/work/cooking-notes-vol-ii/",
+  "scope": "북 디자인, 크리에이티브 디렉션, 사진",
+  "ideaEn": "Water as the through line.",
+  "ideaKo": "물을 책 전체를 관통하는 줄기로 삼는다. 손에는 더 무겁게, 페이지 위에서는 더 자유롭게.",
+  "tags": [
+   "요리책",
+   "하드커버",
+   "필름 사진",
+   "투명 페이지",
+   "손글씨",
+   "미니멀"
+  ],
+  "media": [
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/01.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/02.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/03.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/04.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/05.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/06.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/07.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/08.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/09.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/10.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/11.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/12.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/13.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/14.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/15.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/16.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/17.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/18.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/19.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/20.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/21.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/22.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/23.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/cooking-notes-vol-ii/24.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/cooking-notes-vol-ii/25.mp4",
+    "poster": "media/cooking-notes-vol-ii/25-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/cooking-notes-vol-ii/26.mp4",
+    "poster": "media/cooking-notes-vol-ii/26-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/cooking-notes-vol-ii/27.mp4",
+    "poster": "media/cooking-notes-vol-ii/27-poster.jpg"
+   }
+  ],
+  "sections": [
+   {
+    "t": "배경과 과제",
+    "p": [
+     "셰프 Sandy Ho의 요리책 시리즈 『Cooking Notes』 두 번째 권. 자가 출판, 소량 제작. 저자는 호주 출신, LA 기반 셰프·푸드 스타일리스트로 베트남계 뿌리와 세계 각지에서 요리한 경험을 요리에 담는다.",
+     "Vol. I이 화려하고 빽빽했다면, Vol. II는 시드니 해변에서 시작해 수년간 항해하며 요리한 저자와 물의 관계를 다루고, 레시피도 더 복잡해 느리고 명상적인 접근을 요구한다. 디자인·사진·레이아웃이 이 사색적인 톤 변화를 따라가야 했다."
+    ]
+   },
+   {
+    "t": "타이포그래피",
+    "ul": [
+     "Dinamo Typefaces의 Gaisyr 한 서체로 운영",
+     "표지·속표지에서 'Cooking · Notes · Vol.II · Chef · Sandy Ho'를 단어 단위로 흩어 배치",
+     "저자의 손글씨 서명과 메모를 활자와 함께 사용",
+     "본문은 작고 단정한 텍스트 블록, 넓은 여백"
+    ]
+   },
+   {
+    "t": "컬러",
+    "ul": [
+     "짙은 갈색 천 하드커버, 흰 종이",
+     "색은 필름 사진이 맡음: 바다의 청색, 노른자·강황의 노랑, 채소의 녹색"
+    ]
+   },
+   {
+    "t": "레이아웃·그리드",
+    "ul": [
+     "Vol. I보다 자유롭고 덜 엄격함. 이미지와 텍스트가 펼침면마다 직관적으로 움직임",
+     "대표 펼침면 Poached Black Cod Toast: 생선을 손질하는 사진과 모래 위로 물이 흐르는 이미지를 나란히 배치",
+     "투명한 페이지와 손글씨 메모가 다시 등장. 텍스트가 이미지 위에 겹쳐 대화 중 기억이 떠오르듯 작동"
+    ]
+   },
+   {
+    "t": "사진",
+    "ul": [
+     "Drew Escriva가 필름으로 촬영",
+     "레시피 기록 대신 분위기와 이야기 중심: 재료가 주인공, 과정, 작은 우연한 디테일",
+     "음식 사진 사이사이 바다·수면·모래 같은 물의 이미지"
+    ]
+   },
+   {
+    "t": "제작·물성",
+    "ul": [
+     "시리즈 시작부터 원했던 하드커버",
+     "짙은 갈색 천 표지 중앙에 사진 한 장을 붙인 구성, 책등에 'Cooking Notes Vol. II'",
+     "바르셀로나 Pedro Nova Era 인쇄"
+    ]
+   },
+   {
+    "t": "톤 앤 보이스",
+    "p": [
+     "명상적이고 섬세하며 개인적. 영화적이고 감정적."
+    ]
+   },
+   {
+    "t": "평가",
+    "groups": [
+     {
+      "h": "잘된 점",
+      "ul": [
+       "'물'이라는 주제가 사진, 레이아웃, 물성(투명한 페이지)까지 일관되게 이어짐",
+       "Vol. I과의 차이를 레시피의 성격 변화에서 끌어내 시리즈이면서 권마다 다른 목소리를 가짐",
+       "서체 하나, 절제된 표지로 사진과 손글씨가 주인공이 됨",
+       "투명 페이지 위의 텍스트가 '기억이 떠오르는' 경험을 물리적으로 구현"
+      ]
+     },
+     {
+      "h": "아쉬운 점",
+      "ul": [
+       "그리드를 풀고 분위기 중심으로 간 만큼, 실제로 요리를 따라 하는 레시피 책으로서의 정보 탐색성은 약해질 수 있음"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "poetry-foundation",
   "no": "BCS-003",
   "name": "Poetry Foundation",
