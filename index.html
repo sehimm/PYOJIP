@@ -145,6 +145,17 @@ body.lb-on { overflow: hidden; }
   .lb-prev, .lb-next { top: auto; bottom: 16px; transform: none; }
 }
 
+/* index hover preview */
+.hover-prev {
+  position: fixed; left: 0; top: 0; z-index: 40;
+  width: 260px; pointer-events: none;
+  opacity: 0; transition: opacity .15s;
+  will-change: transform;
+}
+.hover-prev.on { opacity: 1; }
+.hover-prev img { width: 100%; height: auto; display: block; }
+@media (hover: none) { .hover-prev { display: none; } }
+
 /* index (list) view */
 .list { padding: calc(var(--head) + 14px) var(--gutter) 120px; }
 .list table { width: 100%; border-collapse: collapse; }
@@ -396,6 +407,7 @@ function renderIndex() {
     if (!e.target.closest("a")) location.hash = r.dataset.id;
   }));
   bindChips(renderIndex);
+  bindHoverPreview();
 }
 
 /* ── Detail: 왼쪽 미디어 전체, 오른쪽 케이스 스터디 ── */
@@ -509,6 +521,36 @@ document.addEventListener("keydown", e => {
   if (e.key === "ArrowRight") lbStep(1);
 });
 window.addEventListener("hashchange", lbClose);
+
+/* Index: 행에 마우스를 올리면 대표 이미지가 커서를 따라다님 */
+const hp = document.createElement("div");
+hp.className = "hover-prev";
+hp.innerHTML = "<img alt=\"\">";
+document.body.appendChild(hp);
+function coverSrc(c) {
+  if (!c.media || !c.media.length) return "";
+  const m = (c.cover && c.media.find(x => x.src === c.cover)) || c.media[0];
+  return m.type === "video" ? (m.poster || "") : m.src;
+}
+function bindHoverPreview() {
+  const img = hp.querySelector("img");
+  app.querySelectorAll("tr.row").forEach(r => {
+    const c = CASES.find(x => x.id === r.dataset.id);
+    const src = c ? coverSrc(c) : "";
+    if (!src) return;
+    r.addEventListener("mouseenter", () => { img.src = src; hp.classList.add("on"); });
+    r.addEventListener("mouseleave", () => hp.classList.remove("on"));
+  });
+}
+document.addEventListener("mousemove", e => {
+  if (!hp.classList.contains("on")) return;
+  const w = hp.offsetWidth, h = hp.offsetHeight;
+  let x = e.clientX + 24, y = e.clientY + 24;
+  if (x + w > window.innerWidth - 8) x = e.clientX - w - 24;
+  if (y + h > window.innerHeight - 8) y = e.clientY - h - 24;
+  hp.style.transform = `translate(${x}px, ${y}px)`;
+});
+window.addEventListener("hashchange", () => hp.classList.remove("on"));
 
 fetch("cases.json")
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
