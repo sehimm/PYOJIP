@@ -20,6 +20,7 @@
   --gap: 72px;
   --head: 63px;
   --head-cur: var(--head);
+  --fade: 48px;
   color-scheme: light;
 }
 * { box-sizing: border-box; }
@@ -43,11 +44,22 @@ img, video { display: block; max-width: 100%; }
   height: var(--head);
   display: flex; align-items: center; justify-content: space-between;
   padding: 0 var(--gutter);
-  background: var(--bg);
+  background: transparent;
+  isolation: isolate;
   transition: transform .35s ease;
 }
+/* 헤더 배경: 위는 배경색, 아래로 갈수록 투명해지며 내용 위로 페이드아웃 */
+.top::before {
+  content: ""; position: absolute; z-index: -1; pointer-events: none;
+  left: 0; right: 0; top: 0; bottom: calc(var(--fade) * -1);
+  background: linear-gradient(to bottom,
+    rgba(251, 251, 251, 1) 0%,
+    rgba(251, 251, 251, 1) 45%,
+    rgba(251, 251, 251, .85) 65%,
+    rgba(251, 251, 251, 0) 100%);
+}
 body.head-hidden { --head-cur: 0px; }
-body.head-hidden .top { transform: translateY(-100%); }
+body.head-hidden .top { transform: translateY(calc(-100% - var(--fade))); }
 .mark-sub { font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--muted); }
 .mark { line-height: 1; white-space: nowrap; font-weight: 600; font-size: 42.4px; letter-spacing: -0.03em; text-transform: uppercase; }
 .nav { display: flex; gap: 10px; }
