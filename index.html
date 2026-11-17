@@ -49,7 +49,7 @@ img, video { display: block; max-width: 100%; }
 body.head-hidden { --head-cur: 0px; }
 body.head-hidden .top { transform: translateY(-100%); }
 .mark-sub { font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--muted); }
-.mark { font-weight: 600; font-size: 14.7px; letter-spacing: -0.03em; text-transform: uppercase; }
+.mark { line-height: 1; white-space: nowrap; font-weight: 600; font-size: 26.5px; letter-spacing: -0.03em; text-transform: uppercase; }
 .nav { display: flex; gap: 10px; }
 .nav a { padding: 2px 8px; border-radius: 999px; }
 .nav a[aria-current="page"] { background: var(--ink); color: var(--bg); }
@@ -217,6 +217,8 @@ body.lb-on { overflow: hidden; }
   .split.detail > .media, .split.detail > .text { height: auto; overflow: visible; }
   .split.detail .text-head { top: var(--head-cur); }
   :root { --gutter: 20px; --gap: 32px; --head: 34px; }
+  .mark { font-size: 18px; }
+  .mark-sub { display: none; }
   .split { grid-template-columns: 1fr; }
   .panel-fixed { display: none; }
   .mobile-chips { display: block; }
