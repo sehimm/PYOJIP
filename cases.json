@@ -57,14 +57,6 @@
     "poster": "media/bose/05-poster.jpg"
    },
    {
-    "type": "image",
-    "src": "media/bose/06.jpg"
-   },
-   {
-    "type": "image",
-    "src": "media/bose/07.jpg"
-   },
-   {
     "type": "video",
     "src": "media/bose/08.mp4",
     "poster": "media/bose/08-poster.jpg"
@@ -80,7 +72,19 @@
    },
    {
     "type": "image",
-    "src": "media/bose/11.jpg"
+    "src": "media/bose/12.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/bose/13.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/bose/14.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/bose/15.jpg"
    }
   ],
   "sections": [
