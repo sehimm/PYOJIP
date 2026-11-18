@@ -91,7 +91,7 @@ body.head-hidden .top { transform: translateY(-100%); }
   display: flex; justify-content: space-between; gap: 16px;
 }
 .now .d { text-align: right; color: var(--muted); }
-.intro { position: absolute; left: 0; right: 0; bottom: 32px; pointer-events: auto; }
+.intro { position: absolute; left: 0; right: 0; bottom: 32px; pointer-events: auto; font-size: 8.64px; color: #666666; }
 .intro-row { display: flex; justify-content: space-between; gap: 16px; color: #666666; line-height: 1.8; }
 .ig { color: #666666; line-height: 1.8; }
 .ig:hover { color: var(--ink); }
@@ -238,7 +238,7 @@ body.lb-on { overflow: hidden; }
   .covers { padding-bottom: 24px; }
   .cover-cap { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0 0; }
   .cover-cap .d { color: var(--muted); text-align: right; }
-  .mobile-blurb { display: block !important; padding: 0 0 48px; line-height: 1.8; color: #666666; }
+  .mobile-blurb { display: block !important; padding: 0 0 48px; line-height: 1.8; font-size: 8.64px; color: #666666; }
   .sec { grid-template-columns: 1fr; gap: 4px; }
   .text-head { top: var(--head); }
   .list .hide-m { display: none; }
@@ -376,9 +376,9 @@ function renderArchive() {
 function fitBlurb() {
   const el = app.querySelector(".blurb");
   if (!el || !el.offsetParent) return;
-  let size = 14.4;
+  let size = 8.64;
   el.style.fontSize = size + "px";
-  while (el.scrollWidth > el.clientWidth && size > 6) {
+  while (el.scrollWidth > el.clientWidth && size > 5) {
     size -= 0.25;
     el.style.fontSize = size + "px";
   }
