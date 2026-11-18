@@ -1,5 +1,170 @@
 [
  {
+  "id": "bose",
+  "no": "BCS-005",
+  "name": "Bose",
+  "agency": "COLLINS",
+  "agencyNote": "뉴욕·샌프란시스코",
+  "agencyUrl": "https://wearecollins.com/",
+  "year": "2024",
+  "yearNote": "",
+  "country": "미국",
+  "field": "전자제품·오디오",
+  "disciplines": "Strategy, Brand Identity, Typeface, Motion",
+  "categories": [
+   "Brand Identity",
+   "Typefaces",
+   "Motion",
+   "Electronics"
+  ],
+  "mediaCredit": "Typeface: Tekio",
+  "analyzed": "2026-11-18",
+  "url": "https://wearecollins.com/case-studies/bose",
+  "scope": "턴어라운드, 리포지셔닝, 프리미엄화",
+  "ideaEn": "Sound is power.",
+  "ideaKo": "소리를 느끼는 순간 그 순간은 더 강렬해진다. Bose를 '몰입의 비즈니스'로 다시 정의하고, 핵심 가치를 Immersive Audio(몰입형 오디오)로 끌어올렸다.",
+  "tags": [
+   "리브랜딩",
+   "헤리티지 워드마크",
+   "전용 서체",
+   "8색 팔레트",
+   "모션 시그니처",
+   "턴어라운드"
+  ],
+  "media": [
+   {
+    "type": "image",
+    "src": "media/bose/01.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/bose/02.mp4",
+    "poster": "media/bose/02-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/bose/03.mp4",
+    "poster": "media/bose/03-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/bose/04.mp4",
+    "poster": "media/bose/04-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/bose/05.mp4",
+    "poster": "media/bose/05-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/bose/06.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/bose/07.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/bose/08.mp4",
+    "poster": "media/bose/08-poster.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/bose/09.mp4",
+    "poster": "media/bose/09-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/bose/10.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/bose/11.jpg"
+   }
+  ],
+  "sections": [
+   {
+    "t": "배경과 과제",
+    "p": [
+     "1964년 세워져 엔지니어링과 음향 경험으로 알려진 미국 오디오 기업. 60주년을 앞두고 충성 고객은 지키면서 새로운 고객을 끌어와야 했다. 시각만이 아니라 이야기 자체가 낡아 있었고, 이전 브랜드 표현은 훨씬 절제되고 조용했다. COLLINS가 Bose 사내 리더십과 긴밀히 협업했다."
+    ]
+   },
+   {
+    "t": "로고·워드마크",
+    "ul": [
+     "1960년대 손으로 그린 이탤릭 워드마크를 거의 그대로 유지. 바뀐 것은 B 아래쪽과 E 위쪽의 가로 막대뿐",
+     "이 막대를 길게 늘려 아이덴티티 전체의 '늘어나는 형태'의 기본 도형으로 사용. 워드마크가 화면 가로로 길게 뻗어나가며 속도감과 소리의 흐름을 표현",
+     "목표: 로고의 자산과 정체성은 지키면서 새로운 수준의 표현을 가능하게 하는 것"
+    ]
+   },
+   {
+    "t": "타이포그래피",
+    "ul": [
+     "바르샤바의 독립 타입 파운드리 [Tekio](https://store.tekio.work/)와 Bose 사내 크리에이티브가 함께 만든 전용 서체",
+     "워드마크의 이탤릭 글자 형태, Bose의 상징적인 30도 기울기를 바탕으로 설계. 여러 굵기, 맞춤 커닝 쌍, 최적화된 x-height",
+     "Bose에게 자연스러우면서도 새로운 맥락으로 유연하게 확장할 수 있는 서체"
+    ]
+   },
+   {
+    "t": "컬러",
+    "ul": [
+     "음계의 음 하나하나를 상징하는 8가지 핵심 색. 각 색이 다시 여러 단계의 매트릭스로 확장",
+     "노랑, 마젠타·보라, 빨강, 파랑 등 채도 높은 색. 사진에서는 네온 빛, 붉은 터널, 보라·파랑 조명처럼 빛 자체를 색으로 사용"
+    ]
+   },
+   {
+    "t": "그래픽 시스템",
+    "ul": [
+     "그리드: 넓게 분산된 아이덴티티를 일관되고 유연하게 유지하는 구조",
+     "증강(Augments): 시스템에 기능을 더해 여러 맥락에서 더 잘 작동하게 하는 부가 요소",
+     "랭귀지 브리지(Language Bridge): 마케팅 아이덴티티 요소를 제품 인터페이스 요소로, 또 그 반대로 옮기는 기능적 논리",
+     "모션 시그니처: 정적인 브랜드 요소를 알아볼 수 있는 움직임으로 바꾸는 고유한 애니메이션 방식",
+     "앱 타일부터 빌보드, 스크린, 굿즈까지 모든 접점에서 테스트"
+    ]
+   },
+   {
+    "t": "적용 사례",
+    "ul": [
+     "새 세대 제품(QuietComfort 이어버드·헤드폰) 출시와 함께 적용",
+     "캠페인: \"Surprise your ears\", \"Hear the now.\" 등. 앱 화면에서 빌보드까지 같은 시스템",
+     "아티스트 협업: Donald Glover, Jamie xx, Maluma, PinkPantheress, Ice Spice 등",
+     "사진: 비행기 창 너머 노을, 어둠 속 헤드폰 실루엣, 붉은 천에 휩싸인 인물 등 빛과 몰입감 중심"
+    ]
+   },
+   {
+    "t": "톤 앤 보이스",
+    "p": [
+     "되살아난, 단언하는 목소리. 사람들을 몰입형 사운드로 초대. \"Bose brings you closer to your music.\""
+    ]
+   },
+   {
+    "t": "결과",
+    "ul": [
+     "R&D를 몰입형·실감형 오디오 중심의 플래그십 제품에 집중",
+     "새로워진 목적이 내부 팀에 활력을 주고 크리에이티브·기술 인재를 끌어옴",
+     "크리에이터·운동선수·취향 선도자와의 협업 증가",
+     "기존의 실험적 사업을 정리하고 투자를 집중"
+    ]
+   },
+   {
+    "t": "평가",
+    "groups": [
+     {
+      "h": "잘된 점",
+      "ul": [
+       "60년 된 손글씨 워드마크를 거의 건드리지 않고, B와 E의 막대 하나를 늘려 시스템 전체의 동력으로 바꾼 최소 개입. 자산은 지키고 표현은 크게 넓힘",
+       "음계를 색으로 옮긴 8색 팔레트가 '소리'라는 브랜드 본질을 시각 언어로 번역",
+       "워드마크의 30도 이탤릭에서 서체까지 이어지는 일관된 형태 논리",
+       "랭귀지 브리지로 마케팅과 제품 UI를 하나의 언어로 묶어 광고와 실제 제품 경험 사이의 간극을 줄임",
+       "브랜드 작업이 리포지셔닝, R&D 집중, 사업 정리까지 연결된 비즈니스 차원의 턴어라운드"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "cooking-notes-vol-ii",
   "no": "BCS-004",
   "name": "Cooking Notes Vol. II",

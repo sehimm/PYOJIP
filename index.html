@@ -200,6 +200,7 @@ body.lb-on { overflow: hidden; }
 .foot { padding-top: 40px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 .foot a { text-decoration: underline; text-underline-offset: 2px; }
 .ext:hover { color: var(--muted); }
+.ext.inline { text-decoration: underline; text-underline-offset: 2px; }
 .tags { color: var(--muted); }
 .nav-cases { display: flex; justify-content: space-between; padding-top: 96px; }
 .nav-cases a:hover { color: var(--muted); }
@@ -413,11 +414,15 @@ function renderIndex() {
 }
 
 /* ── Detail: 왼쪽 미디어 전체, 오른쪽 케이스 스터디 ── */
+/* 본문 안의 [글자](https://주소) 를 새 탭 링크로 */
+function fmt(x) {
+  return esc(x).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a class="ext inline" href="$2" target="_blank" rel="noopener">$1 ↗</a>');
+}
 function section(s) {
   let b = "";
-  if (s.p) b += s.p.map(x => `<p>${esc(x)}</p>`).join("");
-  if (s.ul) b += `<ul>${s.ul.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
-  if (s.groups) b += s.groups.map(g => `<h4>${esc(g.h)}</h4><ul>${g.ul.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`).join("");
+  if (s.p) b += s.p.map(x => `<p>${fmt(x)}</p>`).join("");
+  if (s.ul) b += `<ul>${s.ul.map(x => `<li>${fmt(x)}</li>`).join("")}</ul>`;
+  if (s.groups) b += s.groups.map(g => `<h4>${esc(g.h)}</h4><ul>${g.ul.map(x => `<li>${fmt(x)}</li>`).join("")}</ul>`).join("");
   return `<section class="sec"><h3>${esc(s.t)}</h3><div class="body">${b}</div></section>`;
 }
 function renderDetail(c) {
