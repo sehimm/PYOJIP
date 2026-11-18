@@ -6,7 +6,7 @@
 <title>PYOJIP — An Archive of Specimens</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Inter+Tight:wght@400;500;600&family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root {
   /* 왼쪽 40% 이미지 스택 + 오른쪽 고정 캡션 패널. 상세도 같은 2단 */
@@ -50,7 +50,7 @@ body.head-hidden { --head-cur: 0px; }
 body.head-hidden .top { transform: translateY(-100%); }
 .mark-sub { font-weight: 400; text-transform: none; letter-spacing: -0.03em; color: var(--muted); }
 .mark-sub-t { letter-spacing: -0.05em; }
-.mark { line-height: 1; white-space: nowrap; font-weight: 600; font-size: 42.4px; letter-spacing: -0.03em; text-transform: uppercase; }
+.mark { line-height: 1; white-space: nowrap; font-family: "Cardo", Georgia, serif; font-weight: 700; font-size: 42.4px; letter-spacing: -0.05em; text-transform: none; }
 .nav { display: flex; gap: 10px; }
 .nav a { padding: 2px 8px; border-radius: 999px; }
 .nav a[aria-current="page"] { background: var(--ink); color: var(--bg); }
@@ -258,7 +258,7 @@ body.lb-on { overflow: hidden; }
 </head>
 <body>
 <header class="top">
-  <a class="mark" href="#">Pyojip <span class="mark-sub">— <span class="mark-sub-t">An Archive of Specimens</span></span></a>
+  <a class="mark" href="#">pyojip</a>
   <nav class="nav" aria-label="보기">
     <a href="#" id="nav-archive">Archive</a>
     <a href="#index" id="nav-index">Index</a>
