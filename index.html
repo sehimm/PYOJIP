@@ -464,7 +464,6 @@ function renderDetail(c) {
           </span>
           <span class="tags">분석 ${esc(c.analyzed)}</span>
         </div>
-        <p class="tags">${[c.field, ...c.tags].map(esc).join(", ")}</p>
         <div class="nav-cases">
           <span>${prev ? `<a href="#${prev.id}">← ${esc(prev.name)}</a>` : `<a href="#">← Archive</a>`}</span>
           <span>${next ? `<a href="#${next.id}">${esc(next.name)} →</a>` : `<a href="#">Archive →</a>`}</span>
