@@ -1,5 +1,161 @@
 [
  {
+  "id": "red-hot-transa",
+  "no": "BCS-006",
+  "name": "TRAИƧA — Red Hot",
+  "agency": "COLLINS",
+  "agencyNote": "뉴욕·샌프란시스코",
+  "agencyUrl": "https://wearecollins.com/",
+  "year": "2024",
+  "yearNote": "앨범 발매 기준",
+  "country": "미국",
+  "field": "음악 (비영리 베네핏 앨범)",
+  "disciplines": "Visual Identity, Packaging, Art Direction, Environmental",
+  "categories": [
+   "Packaging",
+   "Typefaces",
+   "Music",
+   "Arts & Culture"
+  ],
+  "mediaCredit": "Photography: Véra \"V\" Haddad Press · Eleanor Petry · Mari Juliano",
+  "analyzed": "2026-11-18",
+  "url": "https://wearecollins.com/story/red-hot-x-collins",
+  "scope": "비주얼 아이덴티티, 프로젝트 세계관, 6LP 박스셋, 앨범 아트, 스타디움",
+  "ideaEn": "A relic from another era, built to outlast the cause.",
+  "ideaKo": "박스셋을 '다른 시대에서 온 유물'로 만든다. 이 앨범이 기록하는 싸움이 끝난 뒤에도 남아 있을 물건.",
+  "tags": [
+   "베네핏 앨범",
+   "6LP 박스셋",
+   "기증받은 서체",
+   "반전 워드마크",
+   "트랜스·논바이너리",
+   "유물"
+  ],
+  "media": [
+   {
+    "type": "image",
+    "src": "media/red-hot-transa/01.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/red-hot-transa/02.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/red-hot-transa/03.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/red-hot-transa/04.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/red-hot-transa/05.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/red-hot-transa/06.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/red-hot-transa/07.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/red-hot-transa/08.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/red-hot-transa/09.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/red-hot-transa/10.jpg"
+   }
+  ],
+  "sections": [
+   {
+    "t": "배경과 과제",
+    "ul": [
+     "Red Hot은 1990년 『Red Hot + Blue』로 시작해 음악으로 HIV/AIDS와 싸워 온 미국의 비영리 단체. 『TRAИƧA』는 트랜스·논바이너리 공동체를 기리는 46곡, 8챕터, 약 3시간 반 분량의 컴필레이션 앨범으로 2024년 11월 22일 발매",
+     "2021년 트랜스 프로듀서 SOPHIE의 죽음 이후, Red Hot의 Dust Reid와 아티스트·활동가 Massima Bell이 구상",
+     "트랜스 공동체를 향한 공격이 거세지는 시기. 1990년 AIDS 위기 한가운데 나온 『Red Hot + Blue』와 같은 역할을 하는 앨범을 목표로 함",
+     "4시간짜리 앨범 자체가 트랜스 사람들을 위한 기념비. 디자인은 앨범 커버부터 스타디움까지 극단적으로 다른 크기에서 작동해야 했음",
+     "Sade, Beverly Glenn-Copeland, Sam Smith, Perfume Genius, Moses Sumney, ANOHNI, Adrianne Lenker, André 3000, L'Rain, Clairo, Lauren Auder, Yaeji 등 100명 이상의 음악가 참여"
+    ]
+   },
+   {
+    "t": "타이포그래피",
+    "ul": [
+     "기성 상업 서체를 쓰지 않음. 모든 글자는 손으로 그리거나, 트랜스·논바이너리 디자이너가 기증하거나, DaFont에서 가져옴",
+     "사용 서체: Adelphe (Eugénie Bidaut), Sweet Lilly·Versailles Gate (Céline Hurka), CirrusCumulus (Clara Sambot), Tribalium Neue, Crozet·te (Thaïs Cuny), Service Gothic (Nick Sherman), Racine (Coppers and Brasses)",
+     "워드마크 TRAИƧA: N과 S를 뒤집어 쓴 표기. 성별 이분법 안의 '뒤집힘'을 글자 차원에서 보여줌",
+     "책자와 LP 라벨에서는 페이지·면마다 서체가 바뀜. 하나의 서체 시스템 대신 여러 목소리가 공존하는 구성"
+    ]
+   },
+   {
+    "t": "아트워크",
+    "ul": [
+     "전 세계 일곱 명의 아티스트 작품을 Evangeline AdaLioryn이 큐레이션 (본인도 LP1 아트워크 'The Pearl Eater' 제작)",
+     "참여: Michael Bailey Gates, Greer Lankton Archival Museum, Tosh Basco, Pippa Garner, Osinachi, Female Pentimento",
+     "메인 커버: 숲속 흰 헛간 벽에 붉은 TRAИƧA를 칠하고 그 앞에 염소 한 마리. 자연과 만들어진 환경 사이의 긴장, 서구의 성별 이분법 안에서 트랜스로 존재하는 긴장을 말함",
+     "Sade 'Young Lion' 싱글 커버는 Sophie Muller의 뮤직비디오 한 프레임으로 제작"
+    ]
+   },
+   {
+    "t": "컬러",
+    "ul": [
+     "공식 팔레트 명시 없음",
+     "실제 적용: 박스와 워드마크의 강한 레드오렌지가 축. 책자 내지는 핑크·민트·하늘색·라벤더·피치 같은 파스텔을 섹션마다 바꿔 씀. LP 라벨은 보라 바탕에 핑크·라임 숫자",
+     "스타디움 적용에서는 카탈루냐 깃발(Senyera) 색 사용"
+    ]
+   },
+   {
+    "t": "제작·물성",
+    "ul": [
+     "6LP 박스셋: 단단한 반투명 레드 플라스틱 케이스. 앞면에 TRAИƧA, 뒷면에 챕터 이름을 원형으로, 위·아래·책등에는 참여 아티스트 이름",
+     "가사와 아트워크를 담은 책자 동봉. 스트리밍에 없는 확장 트랙(LP6 B면) 수록",
+     "가격 $150 중 $100이 기부금으로 처리되는 구조"
+    ]
+   },
+   {
+    "t": "적용 사례",
+    "ul": [
+     "6LP 박스셋, 앨범·싱글 커버, LP 라벨, 책자",
+     "FC 바르셀로나 창단 125주년, Estadi Olímpic Lluís Companys 경기장 광고판",
+     "굿즈(모자 등), 영상"
+    ]
+   },
+   {
+    "t": "톤 앤 보이스",
+    "p": [
+     "기념하고 축하하면서도 정치적. 존재 자체를 저항으로, 돌봄과 연대를 강조. \"Trans people have always existed.\""
+    ]
+   },
+   {
+    "t": "크레딧",
+    "ul": [
+     "COLLINS: Rohan Rege, Alex Athanasiou, Nick Ace, Ryan Bugden, Eigo Cong, Mina Son",
+     "Red Hot: Dust Reid, Massima Bell, Olive Panter, John Carlin",
+     "커버 사진·영상 Véra \"V\" Haddad Press / 사진 Eleanor Petry / 케이스 스터디 사진 Mari Juliano"
+    ]
+   },
+   {
+    "t": "평가",
+    "groups": [
+     {
+      "h": "잘된 점",
+      "ul": [
+       "서체 선택 자체가 메시지. 상업 서체를 배제하고 트랜스·논바이너리 디자이너의 글자를 모아, 타이포그래피가 곧 참여와 연대의 기록이 됨",
+       "'유물'이라는 개념이 반투명 하드 케이스, 글자를 새긴 듯한 표면, 책자까지 물성으로 이어짐. 스트리밍 시대에 실물을 사야 할 이유를 만듦",
+       "100명 넘는 음악가와 일곱 아티스트를 하나로 묶는 건 강한 레드 워드마크 하나. 나머지는 의도적으로 다양하게 둠"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "bose",
   "no": "BCS-005",
   "name": "Bose",
