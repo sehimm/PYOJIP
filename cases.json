@@ -38,7 +38,8 @@
    },
    {
     "type": "image",
-    "src": "media/red-hot-transa/02.jpg"
+    "src": "media/red-hot-transa/02.jpg",
+    "crop": "496 / 607"
    },
    {
     "type": "image",

@@ -48,7 +48,8 @@ img, video { display: block; max-width: 100%; }
 }
 body.head-hidden { --head-cur: 0px; }
 body.head-hidden .top { transform: translateY(-100%); }
-.mark-sub { font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--muted); }
+.mark-sub { font-weight: 400; text-transform: none; letter-spacing: -0.03em; color: var(--muted); }
+.mark-sub-t { letter-spacing: -0.09em; }
 .mark { line-height: 1; white-space: nowrap; font-weight: 600; font-size: 42.4px; letter-spacing: -0.03em; text-transform: uppercase; }
 .nav { display: flex; gap: 10px; }
 .nav a { padding: 2px 8px; border-radius: 999px; }
@@ -170,6 +171,8 @@ body.lb-on { overflow: hidden; }
 .media figure { margin: 0; background: var(--ph); }
 .media .ph-block { position: relative; aspect-ratio: 10 / 7; }
 .media img, .media video { width: 100%; height: auto; }
+.media figure.crop { overflow: hidden; }
+.media figure.crop img, .media figure.crop video { height: 100%; object-fit: cover; }
 .text { padding: 0 0 160px; }
 .text-head {
   position: sticky; top: var(--head); z-index: 2;
@@ -254,7 +257,7 @@ body.lb-on { overflow: hidden; }
 </head>
 <body>
 <header class="top">
-  <a class="mark" href="#">Pyojip <span class="mark-sub">— An Archive of Specimens</span></a>
+  <a class="mark" href="#">Pyojip <span class="mark-sub">— <span class="mark-sub-t">An Archive of Specimens</span></span></a>
   <nav class="nav" aria-label="보기">
     <a href="#" id="nav-archive">Archive</a>
     <a href="#index" id="nav-index">Index</a>
@@ -432,7 +435,7 @@ function renderDetail(c) {
   const i = CASES.indexOf(c);
   const prev = CASES[i - 1], next = CASES[i + 1];
   const media = c.media && c.media.length
-    ? c.media.map(m => `<figure>${mediaEl(m)}</figure>`).join("")
+    ? c.media.map(m => `<figure${m.crop ? ` class="crop" style="aspect-ratio:${esc(m.crop)}"` : ""}>${mediaEl(m)}</figure>`).join("")
     : `<figure class="ph-block">${placeholder(c)}</figure>`;
   app.innerHTML = `
     <div class="split detail">
