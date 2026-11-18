@@ -201,6 +201,7 @@ body.lb-on { overflow: hidden; }
 .foot a { text-decoration: underline; text-underline-offset: 2px; }
 .ext:hover { color: var(--muted); }
 .ext.inline { text-decoration: underline; text-underline-offset: 2px; }
+.credits { display: flex; flex-direction: column; }
 .tags { color: var(--muted); }
 .nav-cases { display: flex; justify-content: space-between; padding-top: 96px; }
 .nav-cases a:hover { color: var(--muted); }
@@ -452,7 +453,11 @@ function renderDetail(c) {
         </div>
         ${c.sections.map(section).join("")}
         <div class="foot">
-          <span>Images &amp; Video © ${esc(c.agency)}${c.mediaCredit ? ` · ${esc(c.mediaCredit)}` : ""} · 출처 <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></span>
+          <span class="credits">
+            <span>Images &amp; Video © ${esc(c.agency)}</span>
+            ${(c.mediaCredit || "").split(" · ").filter(Boolean).map(x => `<span>${esc(x)}</span>`).join("")}
+            <span>출처 <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></span>
+          </span>
           <span class="tags">분석 ${esc(c.analyzed)}</span>
         </div>
         <p class="tags">${[c.field, ...c.tags].map(esc).join(", ")}</p>
