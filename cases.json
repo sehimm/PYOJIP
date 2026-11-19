@@ -1226,5 +1226,153 @@
    "Beauty & Wellness"
   ],
   "mediaCredit": ""
+ },
+ {
+  "id": "papermakers-of-the-lake-district",
+  "kind": "documentary",
+  "no": "DOC-001",
+  "name": "Papermakers of the Lake District",
+  "agency": "Nation of Artisans",
+  "agencyUrl": "https://nationofartisans.substack.com/",
+  "director": "Christian Cargill",
+  "production": "Dalmatian Films",
+  "year": "2026",
+  "yearNote": "",
+  "country": "영국",
+  "field": "공예·제지",
+  "runtime": "5분 50초",
+  "disciplines": "Short Documentary · Episode 2",
+  "categories": [
+   "Craft",
+   "Paper",
+   "Manufacturing"
+  ],
+  "mediaCredit": "Film: Nation of Artisans · Dalmatian Films · Director & Cinematography: Christian Cargill",
+  "analyzed": "2026-11-19",
+  "url": "https://nationofartisans.substack.com/p/papermakers-of-the-lake-district",
+  "watchUrl": "https://nationofartisans.substack.com/p/papermakers-of-the-lake-district",
+  "ideaEn": "PAPERMAKERS OF THE LAKE DISTRICT",
+  "ideaKo": "레이크 디스트릭트 번사이드 마을의 마지막 고급지 공장 James Cropper와 수제 종이 재단 Paper Foundation을, 세 사람의 목소리로 따라가는 6분짜리 단편 다큐멘터리.",
+  "tags": [
+   "단편 다큐멘터리",
+   "제지",
+   "수제 종이",
+   "James Cropper",
+   "Paper Foundation",
+   "레이크 디스트릭트"
+  ],
+  "cover": "media/papermakers-of-the-lake-district/02.jpg",
+  "media": [
+   {
+    "type": "image",
+    "src": "media/papermakers-of-the-lake-district/01.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/papermakers-of-the-lake-district/02.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/papermakers-of-the-lake-district/03.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/papermakers-of-the-lake-district/04.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/papermakers-of-the-lake-district/05.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/papermakers-of-the-lake-district/06.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/papermakers-of-the-lake-district/07.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/papermakers-of-the-lake-district/08.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/papermakers-of-the-lake-district/09.jpg"
+   }
+  ],
+  "sections": [
+   {
+    "t": "기본 정보",
+    "ul": [
+     "Nation of Artisans 시리즈 Episode 2. 부제 'Into the world of James Cropper and the Paper Foundation'. 2026년 5월 7일 공개",
+     "러닝타임 5분 50초, 화면비 2:1. 영상과 함께 긴 글(dispatch)이 실림",
+     "촬영지: 영국 컴브리아주 레이크 디스트릭트, 번사이드 마을",
+     "무상(pro bono) 제작"
+    ]
+   },
+   {
+    "t": "기획",
+    "ul": [
+     "Nation of Artisans는 영국의 공예·장인 산업을 기록하는 서브스택 매체. 설립자 Louis Elton이 기획·총괄 제작",
+     "기획자는 2024년 James Cropper와 Paper Foundation을 처음 알게 됨. 공예와 산업, 혁신이 맞물리는 지점이 매체의 출발점과 같다고 설명",
+     "Episode 1은 『Shoemakers of Northamptonshire』, Episode 3은 제보를 받는 중. 이 작업을 계기로 'The British Cræft Prize'를 구상"
+    ]
+   },
+   {
+    "t": "대상",
+    "ul": [
+     "James Cropper Plc: 1845년 Cropper 가문이 인수한 이래 같은 자리에서 운영해 온 제지 공장. 영국에 남은 마지막 고급지(fine paper) 제조사로 소개됨. 연 매출 약 1억 파운드, 직원 약 500명",
+     "The Paper Foundation: 2016년 Mark Cropper의 집 헛간에서 시작한 별도의 자선 단체. 수제 종이 제작을 되살리고 보존. 왕실 인증(Royal Warrant) 보유. 장비는 아일랜드 Griffin Mill에서 들여옴",
+     "번사이드: 인구 2,000명이 안 되는 켄트강 유역 마을. 한때 이 강에 53개의 공장이 있었음"
+    ]
+   },
+   {
+    "t": "등장인물",
+    "ul": [
+     "Mark Cropper: 6대째 제지업자, James Cropper Plc 회장. 약 13년 전 런던에서 번사이드로 돌아옴",
+     "Tom Frith-Powell: Paper Foundation의 첫 견습생이자 제지공. 데이미언 허스트의 사무실에서 일하다 2019년 번사이드로 이주, 코로나 시기에는 줌으로 견습을 이어감",
+     "Mandy Clement: 약 20년 근무, 첨단 소재(Advanced Materials) 부문의 혁신 담당"
+    ]
+   },
+   {
+    "t": "영화의 흐름",
+    "ul": [
+     "도입: 종이는 식물 섬유와 물로만 이루어진, 가장 다재다능한 재료라는 말로 시작",
+     "Mark Cropper: 고조부가 22세에 100년 된 제지 공장을 산 이야기, 강과 풍경에 기대는 공장",
+     "Tom Frith-Powell: 런던 미술계를 떠나 수제 종이로 옮긴 이유. 섬유 산업 폐기물을 쓰는 종이, 디지털화에 대한 반작용으로서 공예와 지속가능성",
+     "재활용: Soho House의 낡은 침대 시트로 만든 호텔 문구, 세계 최초의 커피컵 재활용 설비(50억 개 이상 재활용)",
+     "회사의 두 축: 컬러 종이·패키징(전통 사업)과 첨단 소재",
+     "Mandy Clement: 일상 곳곳에 보이지 않게 들어간 섬유 기반 소재. 항공기 날개의 낙뢰를 분산시키는 소재 등",
+     "수제 종이 공정: 넝마·밧줄·돛을 물과 함께 몇 시간 두드려 펄프로 만들고, 물에 풀어 틀로 뜨고, 압착하고, 말림. 작업의 리듬과 몰입",
+     "맺음: 디지털 세계가 환경과 정신 건강에 남기는 발자국, 예술과 문화의 기반 재료로서의 종이. 화면보다 종이에 시간을 쓰자는 말로 끝남"
+    ]
+   },
+   {
+    "t": "다루는 내용",
+    "ul": [
+     "공정과 재료: 셀룰로스 섬유와 물. 과거에는 버려진 리넨·면 넝마. 수제 종이는 철망과 나무로 된 틀에서 몇 초 만에 종이가 됨. 결함은 면도칼로, 탄소섬유 롤의 불순물은 메스로 제거. 탄소섬유용으로 개조한 자체 초지기",
+     "색: 섬유를 염색하는 컬러 종이. 1850년대 넝마 부족으로 저급 섬유를 염색하는 방향으로 전환",
+     "제품: 고급 패키징용 컬러 종이, 학교 공책, 현충일 포피, 액자 매트지 / 1gsm까지 얇은 초경량 탄소섬유 시트(항공우주, 풍력 터빈 블레이드, 단열재, F1) / Paper Foundation의 벽 조명, 워터마크를 넣은 『The Waste Land』 한정판, Soho House 시트 재활용 문구",
+     "고객: 대영도서관, 미국 의회도서관, 폴저 셰익스피어 도서관, 메트로폴리탄 미술관, Soho House",
+     "연표: 1842 James Cropper가 사촌 Fanny에게 청혼하고 번사이드로 이주 / 1845 결혼, 사업 시작 / 1850년대 컬러 종이로 전환 / 1980년대 회사 가치(1,000만 파운드 미만)를 웃도는 4,000만 파운드 이상의 공장 재건 / 1982 탄소섬유 종이를 비밀리에 손으로 개발 / 2016 Paper Foundation 설립 / 2019 Tom Frith-Powell 합류"
+    ]
+   },
+   {
+    "t": "연출·형식",
+    "ul": [
+     "내레이터 없이 세 사람의 인터뷰 목소리로 진행",
+     "2:1의 넓은 화면비",
+     "장면: 진홍색 종이 위로 피어오르는 김, 펄프와 물, 컬러 연구실의 염료, 공장을 걷는 Mark Cropper, 탄소섬유를 든 Mandy Clement, 작업장의 Tom Frith-Powell"
+    ]
+   },
+   {
+    "t": "크레딧",
+    "ul": [
+     "기획·총괄 제작 Louis Elton",
+     "연출·촬영 Christian Cargill / 제작 Dalmatian Films",
+     "편집 Tom Gilfillan / 컬러 Nathaniel Skeels / 편집 프로듀서 Luke Spencer / 제작 보조 Hugo Williams-Ellis / 후반 작업 The Shop"
+    ]
+   }
+  ]
  }
 ]

@@ -194,6 +194,7 @@ body.lb-on { overflow: hidden; }
 .facts dd { margin: 0; }
 .idea { padding: 14px 0 14px; border-bottom: 1px solid var(--rule); }
 .idea .en { font-size: clamp(32px, 3.84vw, 50px); font-weight: 500; letter-spacing: -0.035em; line-height: 1.05; margin: 0; text-wrap: balance; }
+.idea .watch { margin: 14px 0 0; font-size: 16px; line-height: 1.8; }
 .idea .ko { margin: 14px 0 0; font-size: 16px; line-height: 1.8; }
 .sec { display: grid; grid-template-columns: 12em 1fr; gap: 24px; padding: 24px 0 26px; border-bottom: 1px solid var(--rule); }
 .sec h3 { margin: 0; font-size: 14.4px; font-weight: 400; color: var(--muted); }
@@ -266,6 +267,7 @@ body.lb-on { overflow: hidden; }
   <nav class="nav" aria-label="보기">
     <a href="#" id="nav-archive">Archive</a>
     <a href="#index" id="nav-index">Index</a>
+    <a href="#documentary" id="nav-doc">Documentary</a>
   </nav>
 </header>
 <main id="app"></main>
@@ -282,12 +284,16 @@ body.lb-on { overflow: hidden; }
 const BLURB = "마주치는 모든 것은 표본이다. 모으고, 들여다본다.";
 let CASES = [];
 let FILTER = new Set();
+let SECTION = "brand"; /* brand | doc */
+const isDoc = c => c.kind === "documentary";
+function pool() { return CASES.filter(c => SECTION === "doc" ? isDoc(c) : !isDoc(c)); }
+function setSection(s) { if (SECTION !== s) { SECTION = s; FILTER = new Set(); } }
 function allCats() {
   const seen = [];
-  CASES.forEach(c => (c.categories || []).forEach(t => { if (!seen.includes(t)) seen.push(t); }));
+  pool().forEach(c => (c.categories || []).forEach(t => { if (!seen.includes(t)) seen.push(t); }));
   return seen;
 }
-function filtered() { return FILTER.size ? CASES.filter(c => [...FILTER].every(t => (c.categories || []).includes(t))) : CASES; }
+function filtered() { return FILTER.size ? pool().filter(c => [...FILTER].every(t => (c.categories || []).includes(t))) : pool(); }
 function chipBar() {
   return `<div class="chips" role="group" aria-label="분류로 거르기">
     <button class="chip" type="button" data-cat="" aria-pressed="${!FILTER.size}">All</button>
@@ -310,10 +316,10 @@ function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 function setNav(which) {
-  document.getElementById("nav-archive").toggleAttribute("aria-current", which === "archive");
-  document.getElementById("nav-index").toggleAttribute("aria-current", which === "index");
-  if (which === "archive") document.getElementById("nav-archive").setAttribute("aria-current", "page");
-  if (which === "index") document.getElementById("nav-index").setAttribute("aria-current", "page");
+  [["archive","nav-archive"],["index","nav-index"],["doc","nav-doc"]].forEach(([k, id]) => {
+    const el = document.getElementById(id);
+    if (which === k) el.setAttribute("aria-current", "page"); else el.removeAttribute("aria-current");
+  });
 }
 function mediaEl(m, cls) {
   if (!m) return "";
@@ -326,7 +332,7 @@ function placeholder(c) {
 
 /* ── Archive: 대표 이미지 스택 + 고정 캡션 ── */
 function renderArchive() {
-  setNav("archive");
+  setNav(SECTION === "doc" ? "doc" : "archive");
   const list = filtered();
   const items = list.map((c, i) => `
     <a class="cover-wrap" href="#${c.id}" data-i="${i}">
@@ -396,6 +402,7 @@ if (document.fonts) document.fonts.ready.then(fitBlurb);
 
 /* ── Index: 목록 ── */
 function renderIndex() {
+  setSection("brand");
   setNav("index");
   window.onscroll = null;
   app.innerHTML = `
@@ -437,8 +444,12 @@ function section(s) {
 function renderDetail(c) {
   setNav(null);
   window.onscroll = null;
-  const i = CASES.indexOf(c);
-  const prev = CASES[i - 1], next = CASES[i + 1];
+  const doc = isDoc(c);
+  setSection(doc ? "doc" : "brand");
+  const list = pool(), i = list.indexOf(c);
+  const prev = list[i - 1], next = list[i + 1];
+  const home = doc ? "#documentary" : "#", homeName = doc ? "Documentary" : "Archive";
+  const ext = (name, url) => url ? `<a class="ext" href="${esc(url)}" target="_blank" rel="noopener">${esc(name)} ↗</a>` : esc(name);
   const media = c.media && c.media.length
     ? c.media.map(m => `<figure${m.crop ? ` class="crop" style="aspect-ratio:${esc(m.crop)}"` : ""}>${mediaEl(m)}</figure>`).join("")
     : `<figure class="ph-block">${placeholder(c)}</figure>`;
@@ -446,10 +457,16 @@ function renderDetail(c) {
     <div class="split detail">
       <div class="media">${media}</div>
       <article class="text">
-        <dl class="facts">
+        <dl class="facts">${doc ? `
+          <div><dt>Film</dt><dd>${esc(c.name)}</dd></div>
+          <div><dt>No.</dt><dd>${esc(c.no)}</dd></div>
+          <div><dt>Director</dt><dd>${esc(c.director)}</dd></div>
+          <div><dt>Production</dt><dd>${esc(c.production)}</dd></div>
+          <div><dt>Publisher</dt><dd>${ext(c.agency, c.agencyUrl)}</dd></div>
+          <div><dt>Runtime</dt><dd>${esc(c.runtime)}</dd></div>` : `
           <div><dt>Project</dt><dd>${esc(c.name)}</dd></div>
           <div><dt>No.</dt><dd>${esc(c.no)}</dd></div>
-          <div><dt>Studio</dt><dd>${c.agencyUrl ? `<a class="ext" href="${esc(c.agencyUrl)}" target="_blank" rel="noopener">${esc(c.agency)} ↗</a>` : esc(c.agency)}</dd></div>
+          <div><dt>Studio</dt><dd>${ext(c.agency, c.agencyUrl)}</dd></div>`}
           <div><dt>Year</dt><dd>${esc(c.year)}${c.yearNote ? ` <span class="tags">(${esc(c.yearNote)})</span>` : ""}</dd></div>
           <div><dt>Country</dt><dd>${esc(c.country)}</dd></div>
           <div><dt>Field</dt><dd>${esc(c.field)}</dd></div>
@@ -457,20 +474,21 @@ function renderDetail(c) {
         <div class="idea">
           <p class="en">${esc(c.ideaEn)}</p>
           <p class="ko">${esc(c.ideaKo)}</p>
+          ${c.watchUrl ? `<p class="watch"><a class="ext" href="${esc(c.watchUrl)}" target="_blank" rel="noopener">영화 보기 ↗</a></p>` : ""}
           <div class="chips">${(c.categories || []).map(t => `<button class="chip" type="button" data-go="${esc(t)}">${esc(t)}</button>`).join("")}</div>
         </div>
         ${c.sections.map(section).join("")}
         <div class="foot">
           <span class="credits">
-            <span>Images &amp; Video © ${esc(c.agency)}</span>
+            <span>${doc ? "Stills" : "Images &amp; Video"} © ${esc(c.agency)}</span>
             ${(c.mediaCredit || "").split(" · ").filter(Boolean).map(x => `<span>${esc(x)}</span>`).join("")}
             <span>출처 <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></span>
           </span>
           <span class="tags">분석 ${esc(c.analyzed)}</span>
         </div>
         <div class="nav-cases">
-          <span>${prev ? `<a href="#${prev.id}">← ${esc(prev.name)}</a>` : `<a href="#">← Archive</a>`}</span>
-          <span>${next ? `<a href="#${next.id}">${esc(next.name)} →</a>` : `<a href="#">Archive →</a>`}</span>
+          <span>${prev ? `<a href="#${prev.id}">← ${esc(prev.name)}</a>` : `<a href="${home}">← ${homeName}</a>`}</span>
+          <span>${next ? `<a href="#${next.id}">${esc(next.name)} →</a>` : `<a href="${home}">${homeName} →</a>`}</span>
         </div>
       </article>
     </div>`;
@@ -479,7 +497,8 @@ function renderDetail(c) {
   }
   app.querySelectorAll(".chip[data-go]").forEach(b => b.addEventListener("click", () => {
     FILTER = new Set([b.dataset.go]);
-    if (location.hash && location.hash !== "#") location.hash = ""; else renderArchive();
+    const target = doc ? "documentary" : "";
+    if (location.hash.replace(/^#/, "") !== target) { location.hash = target; } else renderArchive();
   }));
   window.scrollTo(0, 0);
 }
@@ -487,8 +506,10 @@ function renderDetail(c) {
 function route() {
   const id = location.hash.replace(/^#/, "");
   if (id === "index") return renderIndex();
+  if (id === "documentary") { setSection("doc"); return renderArchive(); }
   const c = CASES.find(x => x.id === id);
-  if (c) renderDetail(c); else renderArchive();
+  if (c) return renderDetail(c);
+  setSection("brand"); renderArchive();
 }
 
 
