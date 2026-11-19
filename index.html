@@ -267,7 +267,6 @@ body.lb-on { overflow: hidden; }
   <nav class="nav" aria-label="보기">
     <a href="#" id="nav-archive">Archive</a>
     <a href="#index" id="nav-index">Index</a>
-    <a href="#documentary" id="nav-doc">Documentary</a>
   </nav>
 </header>
 <main id="app"></main>
@@ -284,10 +283,8 @@ body.lb-on { overflow: hidden; }
 const BLURB = "마주치는 모든 것은 표본이다. 모으고, 들여다본다.";
 let CASES = [];
 let FILTER = new Set();
-let SECTION = "brand"; /* brand | doc */
 const isDoc = c => c.kind === "documentary";
-function pool() { return CASES.filter(c => SECTION === "doc" ? isDoc(c) : !isDoc(c)); }
-function setSection(s) { if (SECTION !== s) { SECTION = s; FILTER = new Set(); } }
+function pool() { return CASES; }
 function allCats() {
   const seen = [];
   pool().forEach(c => (c.categories || []).forEach(t => { if (!seen.includes(t)) seen.push(t); }));
@@ -316,7 +313,7 @@ function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 function setNav(which) {
-  [["archive","nav-archive"],["index","nav-index"],["doc","nav-doc"]].forEach(([k, id]) => {
+  [["archive","nav-archive"],["index","nav-index"]].forEach(([k, id]) => {
     const el = document.getElementById(id);
     if (which === k) el.setAttribute("aria-current", "page"); else el.removeAttribute("aria-current");
   });
@@ -332,7 +329,7 @@ function placeholder(c) {
 
 /* ── Archive: 대표 이미지 스택 + 고정 캡션 ── */
 function renderArchive() {
-  setNav(SECTION === "doc" ? "doc" : "archive");
+  setNav("archive");
   const list = filtered();
   const items = list.map((c, i) => `
     <a class="cover-wrap" href="#${c.id}" data-i="${i}">
@@ -402,7 +399,6 @@ if (document.fonts) document.fonts.ready.then(fitBlurb);
 
 /* ── Index: 목록 ── */
 function renderIndex() {
-  setSection("brand");
   setNav("index");
   window.onscroll = null;
   app.innerHTML = `
@@ -445,10 +441,9 @@ function renderDetail(c) {
   setNav(null);
   window.onscroll = null;
   const doc = isDoc(c);
-  setSection(doc ? "doc" : "brand");
   const list = pool(), i = list.indexOf(c);
   const prev = list[i - 1], next = list[i + 1];
-  const home = doc ? "#documentary" : "#", homeName = doc ? "Documentary" : "Archive";
+  const home = "#", homeName = "Archive";
   const ext = (name, url) => url ? `<a class="ext" href="${esc(url)}" target="_blank" rel="noopener">${esc(name)} ↗</a>` : esc(name);
   const media = c.media && c.media.length
     ? c.media.map(m => `<figure${m.crop ? ` class="crop" style="aspect-ratio:${esc(m.crop)}"` : ""}>${mediaEl(m)}</figure>`).join("")
@@ -497,8 +492,7 @@ function renderDetail(c) {
   }
   app.querySelectorAll(".chip[data-go]").forEach(b => b.addEventListener("click", () => {
     FILTER = new Set([b.dataset.go]);
-    const target = doc ? "documentary" : "";
-    if (location.hash.replace(/^#/, "") !== target) { location.hash = target; } else renderArchive();
+    if (location.hash && location.hash !== "#") location.hash = ""; else renderArchive();
   }));
   window.scrollTo(0, 0);
 }
@@ -506,10 +500,10 @@ function renderDetail(c) {
 function route() {
   const id = location.hash.replace(/^#/, "");
   if (id === "index") return renderIndex();
-  if (id === "documentary") { setSection("doc"); return renderArchive(); }
+  if (id === "documentary") { FILTER = new Set(["Documentary"]); location.hash = ""; return; }
   const c = CASES.find(x => x.id === id);
   if (c) return renderDetail(c);
-  setSection("brand"); renderArchive();
+  renderArchive();
 }
 
 
