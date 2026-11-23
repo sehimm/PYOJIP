@@ -477,7 +477,7 @@ function renderDetail(c) {
           <span class="credits">
             <span>${doc ? "Stills" : "Images &amp; Video"} © ${esc(c.agency)}</span>
             ${(c.mediaCredit || "").split(" · ").filter(Boolean).map(x => `<span>${esc(x)}</span>`).join("")}
-            <span>출처 <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></span>
+            ${(c.sources || [{ url: c.url }]).map((x, k) => `<span>${k === 0 ? "출처" : "<span style=\"visibility:hidden\">출처</span>"} <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label || x.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a></span>`).join("")}
           </span>
           <span class="tags">분석 ${esc(c.analyzed)}</span>
         </div>

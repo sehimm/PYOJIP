@@ -129,14 +129,6 @@
     ]
    },
    {
-    "t": "출처",
-    "ul": [
-     "[Dezeen, 2024.04](https://www.dezeen.com/2024/04/14/adam-sheet-waterproof-biotextile-apple-waste/)",
-     "[designboom, 2024.01](https://www.designboom.com/design/adam-sheet-recycled-apple-waste-pomace-sozai-center-01-26-2024/)",
-     "[Adam 공식 몰](https://a-d-a-m.shop/en)"
-    ]
-   },
-   {
     "t": "평가",
     "groups": [
      {
@@ -149,6 +141,20 @@
       ]
      }
     ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "dezeen.com — Adam Sheet (2024.04)",
+    "url": "https://www.dezeen.com/2024/04/14/adam-sheet-waterproof-biotextile-apple-waste/"
+   },
+   {
+    "label": "designboom.com — ADAM Sheet (2024.01)",
+    "url": "https://www.designboom.com/design/adam-sheet-recycled-apple-waste-pomace-sozai-center-01-26-2024/"
+   },
+   {
+    "label": "a-d-a-m.shop — Adam 공식 몰",
+    "url": "https://a-d-a-m.shop/en"
    }
   ]
  },
