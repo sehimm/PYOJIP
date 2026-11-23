@@ -1,5 +1,158 @@
 [
  {
+  "id": "adam-sheet",
+  "no": "BCS-007",
+  "name": "ADAM Sheet",
+  "agency": "Sozai Center",
+  "agencyUrl": "https://a-d-a-m.shop/en",
+  "agencyNote": "아오모리",
+  "year": "2024",
+  "yearNote": "",
+  "country": "일본",
+  "field": "소재 개발·제품 디자인",
+  "disciplines": "Material Development, Product Design, Creative Direction",
+  "categories": [
+   "Material",
+   "Product Design",
+   "Sustainability",
+   "Craft"
+  ],
+  "mediaCredit": "Images courtesy of Sozai Center · Creative Direction: M&T",
+  "analyzed": "2026-11-23",
+  "url": "https://a-d-a-m.shop/en",
+  "ideaEn": "ADAM SHEET",
+  "ideaKo": "사과 한 알의 모든 부분(과육·껍질·씨·꼭지)을 남김없이 시트로 만든다. 색을 더하지 않고 사과 자체의 색과 결을 그대로 남긴다.",
+  "tags": [
+   "사과 찌꺼기",
+   "바이오 소재",
+   "반투명",
+   "아오모리"
+  ],
+  "media": [
+   {
+    "type": "image",
+    "src": "media/adam-sheet/01.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/adam-sheet/02.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/adam-sheet/03.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/adam-sheet/04.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/adam-sheet/05.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/adam-sheet/06.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/adam-sheet/07.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/adam-sheet/08.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/adam-sheet/09.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/adam-sheet/10.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/adam-sheet/11.jpg"
+   }
+  ],
+  "sections": [
+   {
+    "t": "배경과 과제",
+    "p": [
+     "착즙 후 남은 사과 찌꺼기(pomace)로 만든 반투명 시트 소재와, 그 소재로 만든 제품 브랜드 'Adam'. 아오모리는 일본의 대표적인 사과 산지로 해마다 착즙 후 대량의 찌꺼기가 나오고, Sozai Center 설립자 Shotaro Oshima는 이를 지역의 큰 문제로 본다. 지역의 폐기물을 세계로 나가는 소재로 바꾸는 것이 목표(\"Turning local waste into a material for the world\")."
+    ]
+   },
+   {
+    "t": "만든 사람",
+    "ul": [
+     "Sozai Center: 설립자 Shotaro Oshima, 프로듀서 Ryohei Koda",
+     "크리에이티브 디렉션: Miyu Ikeda, Takuto Kurashima (M&T)",
+     "협업: KOMORU Corporation, M&T",
+     "지역: 아오모리현 쓰가루 평야. 사과 찌꺼기는 지역 농가에서 수거"
+    ]
+   },
+   {
+    "t": "소재",
+    "ul": [
+     "구성: 착즙 후 남은 사과 찌꺼기 전부 사용. 인공 착색 없음",
+     "비율 표기는 매체마다 다름: designboom과 공식 사이트는 '사과 찌꺼기 100%', Dezeen 인터뷰에서는 '약 87%가 사과 찌꺼기, 소량의 바이오 기반 PVC로 결합, 화석 연료 기반 플라스틱 없음'",
+     "공정: 찌꺼기 수거 → 곱게 갈아 분말로 → 수분과 당도 조정 → 바이오 기반 PVC로 결합해 시트화",
+     "계절성: 수확마다 수분·당도가 달라 해마다 색이 바뀜. Oshima는 와인 양조에 비유",
+     "물성: 방수, 세탁기 세탁 가능, 긁힘에 강함, 재봉·재단 가능, 빛을 투과하는 반투명. 두께 0.6mm, 100cm²당 70g, RoHS2 적합",
+     "관리: 기름, 향수, 화장품, 왁스, 얼룩 제거제, 알코올, 용제와 닿지 않게",
+     "재활용: Dezeen은 음식 폐기물과 바이오플라스틱을 섞은 구조라 재활용이 어렵거나 불가능할 것으로 봄. 생분해 여부는 명시되지 않음"
+    ]
+   },
+   {
+    "t": "제품",
+    "ul": [
+     "초기: 카드 케이스(앞뒤 포켓에 카드 4장, 시트 너머로 카드가 비침), 크로스바디 파우치(스마트폰·카드·여권). 둥근 모서리",
+     "이후: 토트백, 마켓백, 바스켓 트레이, 멀티 파우치, 코인 케이스, 벽거울, 조명",
+     "앞으로 패션, 가구, 인테리어로 확장 계획"
+    ]
+   },
+   {
+    "t": "브랜드·표현",
+    "ul": [
+     "이름: 'Adam's apple'(목젖)에서 따온 장난스러운 이름. 워드마크 'Adam'",
+     "카피: \"Born from apple pomace, a translucent new material.\" / \"Made in Aomori.\"",
+     "사진: 소재보다 산지를 먼저 보여줌. 나무에 달린 사과, 상자 가득한 수확 사과, 눈 덮인 숲, 쓰가루의 산과 하늘. 소재 컷은 시트 너머로 손이 비치거나 시트가 접혀 빛을 통과하는 장면",
+     "색: 시트 자체의 베이지·호박색에 점점이 박힌 갈색 입자. 배경은 흰색과 자연광",
+     "공식 몰은 일본어·영어 전환, 해외 판매"
+    ]
+   },
+   {
+    "t": "인정·활용",
+    "ul": [
+     "패션 브랜드 doublet 2025SS 컬렉션(파리 패션위크)에 소재 공급",
+     "PVC Award 2025 디자인상",
+     "벽거울, 바스켓 트레이, 조명이 COOL JAPAN AWARD 2025 선정"
+    ]
+   },
+   {
+    "t": "출처",
+    "ul": [
+     "[Dezeen, 2024.04](https://www.dezeen.com/2024/04/14/adam-sheet-waterproof-biotextile-apple-waste/)",
+     "[designboom, 2024.01](https://www.designboom.com/design/adam-sheet-recycled-apple-waste-pomace-sozai-center-01-26-2024/)",
+     "[Adam 공식 몰](https://a-d-a-m.shop/en)"
+    ]
+   },
+   {
+    "t": "평가",
+    "groups": [
+     {
+      "h": "잘된 점",
+      "ul": [
+       "'사과의 모든 부분'과 '착색 없음'이라는 두 원칙이 소재의 외형을 그대로 결정함. 점점이 박힌 씨와 껍질 입자, 해마다 달라지는 색이 곧 정체성",
+       "반투명이라는 물성을 제품 기능으로 연결. 카드가 비치는 카드 케이스, 빛을 통과하는 조명",
+       "산지 풍경 사진으로 '아오모리'라는 원산지를 소재의 가치로 만듦. 와인처럼 해마다 다른 빈티지라는 이야기",
+       "지역 폐기물 문제에서 출발해 패션위크, 디자인 어워드, 해외 판매까지 이어진 확장"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "papermakers-of-the-lake-district",
   "kind": "documentary",
   "no": "DOC-001",
