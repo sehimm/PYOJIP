@@ -28,10 +28,6 @@
   "media": [
    {
     "type": "image",
-    "src": "media/bn-cathedral/01.jpg"
-   },
-   {
-    "type": "image",
     "src": "media/bn-cathedral/02.jpg"
    },
    {
@@ -116,7 +112,8 @@
      }
     ]
    }
-  ]
+  ],
+  "cover": "media/bn-cathedral/02.jpg"
  },
  {
   "id": "adam-sheet",
