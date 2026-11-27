@@ -333,7 +333,7 @@ function renderArchive() {
   const list = filtered();
   const items = list.map((c, i) => `
     <a class="cover-wrap" href="#${c.id}" data-i="${i}">
-      <div class="cover">${c.media && c.media.length ? mediaEl(c.cover ? c.media.find(m => m.src === c.cover) || c.media[0] : c.media[0]) : placeholder(c)}</div>
+      <div class="cover">${c.media && c.media.length ? mediaEl(c.cover ? c.media.find(m => m.src === c.cover) || { type: "image", src: c.cover } : c.media[0]) : placeholder(c)}</div>
       <div class="cover-cap"><span>${esc(c.name)}</span><span class="d">${esc(c.disciplines)}</span></div>
     </a>`).join("");
   app.innerHTML = `
@@ -563,7 +563,7 @@ hp.innerHTML = "<img alt=\"\">";
 document.body.appendChild(hp);
 function coverSrc(c) {
   if (!c.media || !c.media.length) return "";
-  const m = (c.cover && c.media.find(x => x.src === c.cover)) || c.media[0];
+  const m = c.cover ? (c.media.find(x => x.src === c.cover) || { type: "image", src: c.cover }) : c.media[0];
   return m.type === "video" ? (m.poster || "") : m.src;
 }
 function bindHoverPreview() {
