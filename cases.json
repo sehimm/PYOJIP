@@ -26,11 +26,15 @@
    "타일",
    "우크라이나"
   ],
-  "cover": "media/shana/14.jpg",
+  "cover": "media/shana/22.jpg",
   "media": [
    {
     "type": "image",
     "src": "media/shana/01.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/22.jpg"
    },
    {
     "type": "image",
