@@ -1,5 +1,198 @@
 [
  {
+  "id": "shana",
+  "no": "BCS-009",
+  "name": "Shana (Шана)",
+  "agency": "Spiilka Design Büro",
+  "agencyUrl": "https://spiilka.com/",
+  "agencyNote": "키이우",
+  "year": "2026",
+  "yearNote": "",
+  "country": "우크라이나",
+  "field": "세라믹·타일 제조",
+  "disciplines": "Brand Identity, Packaging",
+  "categories": [
+   "Brand Identity",
+   "Packaging",
+   "Craft"
+  ],
+  "mediaCredit": "Photography: Roman Kaiman",
+  "analyzed": "2026-11-27",
+  "url": "https://spiilka.com/projects/shana",
+  "ideaEn": "SHANA",
+  "ideaKo": "부드러운 힘을 시각으로. 겉은 단단하고 날카롭고 강하지만, 안은 둥글고 부드럽고 매끄러운 로고. Шана는 '연결'에 관한 브랜드이고, 그 재료는 도자 자체.",
+  "tags": [
+   "세라믹",
+   "타일",
+   "우크라이나"
+  ],
+  "cover": "media/shana/14.jpg",
+  "media": [
+   {
+    "type": "image",
+    "src": "media/shana/01.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/02.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/shana/03.mp4",
+    "poster": "media/shana/03-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/04.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/05.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/06.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/07.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/08.jpg"
+   },
+   {
+    "type": "video",
+    "src": "media/shana/09.mp4",
+    "poster": "media/shana/09-poster.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/10.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/11.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/12.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/13.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/14.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/15.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/16.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/17.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/18.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/19.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/20.jpg"
+   },
+   {
+    "type": "image",
+    "src": "media/shana/21.jpg"
+   }
+  ],
+  "sections": [
+   {
+    "t": "배경과 과제",
+    "ul": [
+     "우크라이나 비브르카(Бібрка)의 세라믹 공장. 손으로 만드는 타일과 도자 제품. 가족이 세우고 가족이 되살린 공장",
+     "창업자들과 콘셉트를 이야기하는 동안 '부드러운 힘(м'яка сила)'이라는 말이 자주 나옴. 자신들의 역사에 대한 존중, 전통을 되살리려는 노력, 상황에 굴하지 않는 이어짐을 뜻함",
+     "'Шана'는 우크라이나어로 '존경·경의'라는 뜻"
+    ]
+   },
+   {
+    "t": "로고·워드마크",
+    "ul": [
+     "타이포그래픽 로고타입 'шана'. 글자 하나하나가 세라믹 타일처럼 생겨 맞붙으며 단어가 됨",
+     "바깥 윤곽은 각지고 뾰족한 슬랩 형태, 안쪽 카운터는 둥근 곡선",
+     "네 글자가 모듈. 한 줄로 놓거나 2×2로 쌓거나, 화면·지면의 네 모서리에 한 글자씩 배치"
+    ]
+   },
+   {
+    "t": "타이포그래피",
+    "ul": [
+     "원문에 서체명 명시 없음",
+     "실제 적용: 워드마크는 전용 레터링, 보조 서체는 키릴 세리프(포스터 문구, 타일 라벨, 카탈로그)"
+    ]
+   },
+   {
+    "t": "컬러",
+    "ul": [
+     "가공 단계마다 달라지는 점토의 색에서 가져옴",
+     "실제 적용: 크림(생점토), 테라코타(구운 점토), 짙은 갈색. 유약을 바른 타일의 짙은 녹색이 포인트"
+    ]
+   },
+   {
+    "t": "그래픽 시스템",
+    "ul": [
+     "네 글자를 모서리에 흩어 프레임처럼 쓰는 레이아웃. 사진·포스터·박스 모두 같은 방식",
+     "타일 모자이크로 워드마크를 짠 그래픽, 글자 형태로 만든 재활용 표시",
+     "타일 라벨: 시리즈(예: ВАСИЛЬ)·크기(105×105×10mm)·색·용도(실내/실외)·재료·질감·번호를 표 형식으로",
+     "브랜드 문구: 화로의 온기와 산의 힘을 손으로 빚은 도자에 담았다. 자연의 색, 돌의 질감, 후출(Hutsul) 모티프가 몸뿐 아니라 집을 데우는 타일을 만든다"
+    ]
+   },
+   {
+    "t": "사진",
+    "ul": [
+     "석고 몰드와 도자 반제품이 가득한 공장 선반, 흑백의 옛 공장 사진, 카르파티아 산자락의 전통 가옥, 공장을 이끄는 가족",
+     "가족과 장소를 보여주는 다큐멘터리 톤"
+    ]
+   },
+   {
+    "t": "적용 사례",
+    "ul": [
+     "포스터, SNS 게시물, 타일 라벨",
+     "박스 패키지(네 모서리에 글자), 연필 세트, 카탈로그(책등에 글자를 세로로)",
+     "작업 앞치마, 토트백, 타일에 양각한 2×2 로고, 타일 모자이크 사인"
+    ]
+   },
+   {
+    "t": "톤 앤 보이스",
+    "p": [
+     "따뜻하고 차분하며 존중이 담긴 목소리. 장소(비브르카, 카르파티아)와 가족, 전통을 앞세움."
+    ]
+   },
+   {
+    "t": "평가",
+    "groups": [
+     {
+      "h": "잘된 점",
+      "ul": [
+       "'겉은 단단하고 안은 부드러운' 콘셉트를 글자 하나의 바깥 윤곽과 안쪽 카운터로 정확히 번역. 이름의 뜻(존경)과 창업자의 말(부드러운 힘)이 같은 형태 안에 모임",
+       "글자가 곧 타일이라는 설정 덕분에 로고가 그대로 제품·모자이크·양각 타일이 됨. 브랜드와 제품이 같은 재료로 이어짐",
+       "네 글자 모듈을 모서리에 흩는 규칙 하나로 박스부터 포스터까지 일관된 프레임을 만듦",
+       "점토의 가공 단계에서 뽑은 팔레트가 재료의 이야기를 그대로 담음"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "bn-cathedral",
   "no": "BCS-008",
   "name": "BN Cathedral",
